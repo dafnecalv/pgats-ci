@@ -9,9 +9,6 @@ name: 'N2 - Execução Agendada'
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - master
 
   schedule:
     # cronograma de execução
