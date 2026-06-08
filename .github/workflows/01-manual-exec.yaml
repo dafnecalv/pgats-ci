@@ -49,3 +49,12 @@ jobs:
         with:
           path: ./playwright-report
           name: Relatório de Testes E2E
+
+
+# publica o relatório como página web
+- name: Publicando relatório no GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ always() }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./playwright-report
