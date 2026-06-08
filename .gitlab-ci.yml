@@ -1,4 +1,4 @@
-# CI de Nível 01 - Execução Manual através de clique. Teste
+# CI de Nível 01 - Execução Manual através de clique.
 
 stages:
   - test
