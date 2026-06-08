@@ -1,4 +1,4 @@
-# CI de Nível 01 - Execução Manual através de clique
+# CI de Nível 01 - Execução Manual através de clique. Teste
 
 stages:
   - test
@@ -12,7 +12,7 @@ e2e-tests:
 
   # disparo manual
   when: manual
-
+git log --oneline -5
   script:
     # instalação do Yarn
     - npm install -g yarn
